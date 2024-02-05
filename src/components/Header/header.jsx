@@ -1,6 +1,6 @@
 import { useState } from "react";
 import styles from "./header.module.css";
-import LogoMenu from "../../assets/img/logo.png";
+import LogoMenu from "../../assets/img/Logo.png";
 import IconsBars from "../../assets/img/menu-togle.svg"
 import IconCloser from "../../assets/img/menu-closer.svg"
 
