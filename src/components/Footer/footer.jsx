@@ -1,5 +1,5 @@
 import styles from "./footer.module.css";
-import Logo from "../../assets/img/logo.png";
+import Logo from "../../assets/img/Logo.png";
 import faceIcon from "../../assets/img/insta.svg";
 import instaIcon from "../../assets/img/face.svg";
 import twitterIcon from "../../assets/img/x.svg";
