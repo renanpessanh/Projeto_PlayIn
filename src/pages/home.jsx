@@ -1,9 +1,9 @@
 import React from "react";
-import Header from "../components/header/header";
-import Hero from "../components/hero/hero";
+import Header from "../components/Header/header";
+import Hero from "../components/Hero/hero";
 import Playlist from "../components/playlist/playlist";
-import Try from "../components/try/try";
-import Footer from "../components/footer/footer";
+import Try from "../components/Try/try";
+import Footer from "../components/Footer/footer";
 
 const Home = () => {
   return (
