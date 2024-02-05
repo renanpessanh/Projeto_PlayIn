@@ -1,0 +1,91 @@
+.try {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.logoHero2 {
+  display: flex;
+  justify-content: center;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.textoTitulo {
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  max-width: 47ch;
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.texto p {
+  max-width: 40ch;
+  margin: 0 auto;
+  color: #ffffff70;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  padding-top: 20px;
+}
+
+.planosContainer {
+  display: flex;
+  max-width: 1280px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 16px;
+  margin: 0 auto;
+}
+.spanicon {
+  display: none;
+}
+
+.individualImg {
+  margin: 0 auto;
+}
+.iconIndividual .text1 .title_h2 {
+  max-width: 30ch;
+  text-align: center;
+  color: #fff;
+}
+
+.iconIndividual .text1 .title_h2Duo {
+  max-width: 26ch;
+  text-align: center;
+  color: #fff;
+}
+
+.iconIndividual .text {
+  max-width: 25ch;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  padding: 15px 8px;
+}
+
+.btnCardWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 44px;
+}
+
+@media (max-width: 600px) {
+  .spantext {
+    display: none;
+  }
+  .spanicon {
+    display: flex;
+    flex-direction: column;
+  }
+  .textoTitulo {
+    font-size: 30px;
+  }
+
+  .texto p {
+    font-size: 22px;
+  }
+}

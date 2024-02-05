@@ -1,0 +1,106 @@
+footer {
+  background: #0000007e;
+}
+.footerWrapper {
+  padding-top: 3rem;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.footerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 64px;
+}
+
+.FooterP {
+  color: #fff;
+  display: block;
+  padding-top: 16px;
+  font-size: 16px;
+  max-width: 40ch;
+}
+
+.WrapperlistUl {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.containerUl ul .footerA {
+  display: flex;
+  padding-top: 10px;
+  color: #fff;
+  font-weight: 300;
+}
+
+.containerUl ul .footerA:hover {
+  color: #a689f1;
+}
+
+.containerUl ul .footerTitle {
+  display: flex;
+  padding-bottom: 14px;
+  font-weight: 600;
+  color: #fff;
+}
+.footerFlex {
+  position: relative;
+}
+
+.copyWrapper {
+  padding: 16px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.containerCopy {
+  background: #17131d7e;
+}
+
+.ulCopyRede {
+  display: flex;
+  gap: 8px;
+}
+.copyWrapper div p {
+  color: #fff;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+@media (max-width: 600px) {
+  .footerWrapper {
+    border-top: 2px solid #342d3f;
+  }
+
+  .footerContainer div .FooterLogo {
+    margin: 0 auto;
+  }
+  .footerContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .FooterP {
+    text-align: left;
+    padding: 8px 16px;
+  }
+  .FooterSpan {
+    padding-top: 1rem;
+    text-align: center;
+    max-width: 40ch;
+  }
+  .WrapperlistUl {
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 1rem 1rem;
+  }
+  .copyWrapper {
+    flex-direction: column;
+    padding: 1rem 1rem;
+    gap: 20px;
+  }
+}

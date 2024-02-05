@@ -1,0 +1,18 @@
+.button{
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 16px;
+    background: linear-gradient(90deg, #a689f1 -0.8%, #6c69f7 98.5%);
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 550;
+}
+.butoonWrapper{
+    display: flex;
+}
+
+.butoonWrapper .buttonA:hover{
+    background:#fff;
+    color: #6c69f7;
+}
+
